@@ -1,0 +1,47 @@
+.post {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .title {
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .content img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  
+  .content_text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow: hidden; /* giới hạn kích thước của phần content */
+  text-overflow: ellipsis; /* thêm dấu ... nếu nội dung dài hơn 300 chữ */
+  white-space: pre-wrap; /* đảm bảo việc xuống dòng vẫn được giữ nguyên */
+  max-height: 9em; /* chỉ định chiều cao tối đa của phần content (4.5em tương đương 3 dòng) */
+  }
+  

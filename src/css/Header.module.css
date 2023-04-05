@@ -1,0 +1,58 @@
+.header {
+    position: fixed;
+    top: 0;
+    background-color: #9bc9ff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 5px;
+    margin-left: -90px;
+  }
+
+  .items {
+    position: absolute;
+    right: 5px;
+    display: flex;
+  }
+
+  .item {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .item_text {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .item_text Link:nth-child(1) {
+    margin-right: 5px;
+  }
+  
+  .item_text Link:nth-child(2) {
+    margin-left: 5px;
+  }
+
+  .logo img {
+    max-height: 20%;
+    max-width: 20%;
+    object-fit: contain;
+  }
+
+  .item img {
+    width: 50px;
+    height: 50px;
+  }
+  
+
