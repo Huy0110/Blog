@@ -20,7 +20,10 @@ const New = () => {
       posts = JSON.parse(localStorage.getItem("posts"))
     }
 
+    
+
     posts.push({
+      id: (posts.length + 1).toString(),
       title,
       description,
       image
