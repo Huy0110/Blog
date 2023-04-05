@@ -8,7 +8,6 @@ function DefaultLayout({children}) {
             <div className="content">
                 {children}
             </div>
-            <Footer />
         </div>
     )
 }
