@@ -3,7 +3,8 @@ import New from "../components/New"
 // public route
 const publicRoutes = [
     {path: '/', component: Home},
-    {path: '/new', component: New}
+    {path: '/new', component: New},
+    {path: '/post/:id', component: New}
 ]
 
 const privateRoutes = [
