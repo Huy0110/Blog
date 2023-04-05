@@ -1,0 +1,21 @@
+/* định dạng trang news */
+.newsPage {
+    max-width: 800px; /* chiều rộng tối đa của trang news */
+    margin: 0 auto; /* căn giữa trang news */
+    padding: 20px; /* khoảng cách giữa nội dung và viền của trang news */
+    margin-top: 80px;
+  }
+  
+  /* định dạng tiêu đề */
+  .newsTitle {
+    font-size: 36px; /* kích thước chữ cho tiêu đề */
+    font-weight: bold; /* in đậm tiêu đề */
+    margin-bottom: 20px; /* khoảng cách giữa tiêu đề và nội dung */
+  }
+  
+  /* định dạng nội dung */
+  .newsContent {
+    font-size: 18px; /* kích thước chữ cho nội dung */
+    line-height: 1.5; /* khoảng cách giữa các dòng trong nội dung */
+  }
+  

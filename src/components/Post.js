@@ -7,7 +7,7 @@ const Post = memo((props) => {
     const history = createBrowserHistory();
     
     const handleClick = () => {
-        history.push(`post/:${id}`);
+        history.push(`post/${id}`);
         window.location.reload();
     }
   return (
