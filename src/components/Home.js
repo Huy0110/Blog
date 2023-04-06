@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
       {
-        posts.map(post => <Post {...post} />)
+        posts.map(post => <Post key={`${post.id}`} {...post} />)
       }
     </div>
   );

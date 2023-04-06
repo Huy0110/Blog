@@ -12,9 +12,9 @@ const FullPost = memo((props) => {
     const { id } = useParams();
     const currentPost = posts.find(post => post.id === id)
     // const {id, tittle, src, content} = {...props}
-    return <div class={styles.newsPage}>
-    <h1 class={styles.newsTitle}>{currentPost.title}</h1>
-    <div class={styles.newsContent}>
+    return <div className={styles.newsPage}>
+    <h1 className={styles.newsTitle}>{currentPost.title}</h1>
+    <div className={styles.newsContent}>
       {currentPost.description}
     </div>
   </div>

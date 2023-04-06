@@ -1,9 +1,12 @@
-import { memo } from "react";
+import { memo, useState } from "react";
 import styles from "../css/Post.module.css";
 import { createBrowserHistory } from "@remix-run/router";
 
 const Post = memo((props) => {
     const {id, title, image, description} = {...props}
+    console.log("image: ",id, image)
+    // const imageUrl = URL.createObjectURL(image);
+    const imageUrl = ""
     const history = createBrowserHistory();
     
     const handleClick = () => {
@@ -15,7 +18,7 @@ const Post = memo((props) => {
       <div className={styles.post}>
         <h2 className={styles.title}>{title}</h2>
         <div className={styles.content}>
-          <img src="https://ledgernote.com/wp-content/uploads/2016/02/madonna-rich.png" alt="Ảnh minh họa" />
+          <img src={image} alt="Ảnh minh họa" />
           <div className={styles.content_text}>
           {description}
             </div>
