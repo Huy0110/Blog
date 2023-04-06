@@ -2,6 +2,7 @@ import React from "react";
 import Post from "./Post";
 import styles from "../css/Home.module.css";
 import BlankPage from "./BlankPage";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   let posts = []
@@ -17,6 +18,7 @@ const Home = () => {
       {
         posts.map(post => <Post key={`${post.id}`} {...post} />)
       }
+      <Link to='/new'><button className={styles.addPostBtn}>Thêm bài post mới</button></Link>
     </div>
   );
 };
