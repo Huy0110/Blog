@@ -50,3 +50,26 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #2E8B57;
 }
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2E8B57;
+}
+
+.formRow {
+  width: 80%;
+}
+
